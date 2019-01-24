@@ -12,3 +12,5 @@ This template deploys the latest System Center Configuration Manager (SCCM) Tech
 Each VM has its own public IP address and is added to a subnet protected with a Network Security Group, which only allows RDP port from Internet. 
 
 Each VM has a private network IP which is for SCCM communication. 
+
+#Edit by Mike 
