@@ -49,7 +49,7 @@
   },
   "variables": {
     "Quotes": "\"",
-    "storageAccountName": "[concat(uniqueString(resourceGroup().id),'storage')]",
+    "storageAccountName": "sccmstorage",
     "containerName": "[concat(parameters('prefix'), 'container')]",
     "virtualNetworkName": "[concat(parameters('prefix'), '-vnet')]",
     "vnetId": "[resourceId(resourceGroup().name, 'Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
