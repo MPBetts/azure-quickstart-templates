@@ -49,7 +49,7 @@
   },
   "variables": {
     "Quotes": "\"",
-    "storageAccountName": "sccmstorage",
+    "storageAccountName": "sccmstoragemiketola",
     "containerName": "[concat(parameters('prefix'), 'container')]",
     "virtualNetworkName": "[concat(parameters('prefix'), '-vnet')]",
     "vnetId": "[resourceId(resourceGroup().name, 'Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
