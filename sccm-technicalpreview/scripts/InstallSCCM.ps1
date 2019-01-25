@@ -66,7 +66,7 @@ Preview=1
 [Options]
 ProductID=EVAL
 SiteCode=%Role%
-SiteName=%Role%
+SiteName="NexthinkHQ"
 SMSInstallDir=C:\Program Files\Microsoft Configuration Manager
 SDKServer=%MachineFQDN%
 RoleCommunicationProtocol=HTTPorHTTPS

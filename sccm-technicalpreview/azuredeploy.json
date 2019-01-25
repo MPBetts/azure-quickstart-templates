@@ -54,7 +54,7 @@
     "virtualNetworkName": "[concat(parameters('prefix'), '-vnet')]",
     "vnetId": "[resourceId(resourceGroup().name, 'Microsoft.Network/virtualNetworks', variables('virtualNetworkName'))]",
     "generalSettings": {
-      "domainName": "contoso.com",
+      "domainName": "nexthinkdemo.dev",
       "storageAccountType": "Standard_LRS",
       "DiskstorageAccountType": "Premium_LRS",
       "virtualMachinessize": "Standard_D2s_v3"
